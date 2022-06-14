@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ActorPractice", "ActorPractice\ActorPractice.fsproj", "{22065455-C946-47C5-842D-9141F5646079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22065455-C946-47C5-842D-9141F5646079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22065455-C946-47C5-842D-9141F5646079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22065455-C946-47C5-842D-9141F5646079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22065455-C946-47C5-842D-9141F5646079}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA6EF415-230C-40CC-B14B-744483D14527}
+	EndGlobalSection
+EndGlobal
