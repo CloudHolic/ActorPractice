@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="upgradeActor.fs" />
     <Compile Include="ExampleActor.fs" />
     <Compile Include="BasicActors.fs" />
   </ItemGroup>

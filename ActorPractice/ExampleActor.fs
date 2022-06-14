@@ -22,8 +22,7 @@ let Coordinator =
                 match message with
                 | Job length -> queue.Enqueue length
                 | RequestJob replyChannel -> replyChannel.Reply <| queue.Dequeue ()
-                | Ready -> ()
-                
+                | Ready -> ()                
                 return! loop ()}
         loop ())
 
@@ -35,8 +34,7 @@ let Worker () =
                 let! length = Coordinator.PostAndAsyncReply RequestJob
                 do! Async.Sleep length
                 return! loop ()}
-
-        loop())
+        loop ())
 
 
 // Create fake jobs
